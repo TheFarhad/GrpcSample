@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\GrpcServer.Core.Domain\GrpcServer.Core.Domain.csproj" />
+		<ProjectReference Include="..\GrpcServer.Core.Contract\GrpcServer.Core.Contract.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Sky.Kernel" Version="1.0.4" />
+		<PackageReference Include="Sky.Kernel.Filing" Version="1.0.0" />
+		<PackageReference Include="FluentValidation" Version="11.7.1" />
+		<PackageReference Include="Sky.Kernel.Hashing" Version="1.0.2" />
+		<PackageReference Include="Sky.App.Core.Service" Version="1.3.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Event\" />
+	  <Folder Include="Shared\" />
+	  <Folder Include="Validators\" />
+	</ItemGroup>
+
+</Project>

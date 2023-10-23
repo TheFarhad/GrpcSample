@@ -1,0 +1,68 @@
+﻿syntax = "proto3";
+package GrpcServer.API.v1;
+option csharp_namespace = "GrpcServer.API.Protos.v1";
+import "google/protobuf/empty.proto";
+
+/* Services ...*/
+service PersonService
+{
+	rpc Create(stream PersonCreateRequest) returns (stream PersonCreateReply);
+	rpc Remove(PersonByIdRequest) returns (PersonRemoveReply) ;
+	rpc GetById(PersonByIdRequest) returns (PersonReply);
+	rpc List(PersonSearchListByNameRequest) returns (stream PersonReply);
+	rpc Edit(PersonEditRequest) returns (PersonEditReply);
+}
+
+/* Messages ...*/
+message PersonCreateRequest
+{
+	string FirstName = 1;
+	string LastName = 2;
+	string NationalCode = 3;
+	string Biography = 4;
+	repeated string phones = 5;
+}
+message PersonCreateReply
+{
+	int64 Id = 1;
+}
+
+message PersonByIdRequest
+{
+	int64 Id = 1;
+}
+message PersonReply
+{
+	int64 Id = 1;
+	string FirstName = 2;
+	string LastName = 3;
+	string NationalCode = 4;
+	string Biography = 5;
+	repeated string phone = 6;
+}
+
+message PersonRemoveReply
+{
+	bool Success = 1;
+}
+
+message PersonSearchListByNameRequest
+{
+	int32 Page = 1;
+	int32 Size = 2;
+	bool NeededTotaoCount = 3;
+	bool SortAscending = 4;
+	string SortBy = 5;
+	string FirstName = 6;
+	string LastName = 7;
+}
+
+message PersonEditRequest
+{
+	int64 Id = 1;
+	string Biography = 2;
+}
+message PersonEditReply
+{
+	bool Success = 1;
+}

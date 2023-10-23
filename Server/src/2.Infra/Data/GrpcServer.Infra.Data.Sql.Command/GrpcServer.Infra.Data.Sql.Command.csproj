@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Sky.Kernel" Version="1.0.4" />
+		<PackageReference Include="Sky.App.Infra.Data.Sql.Command" Version="1.4.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.8" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.8" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.8" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\1.Core\GrpcServer.Core.Application\GrpcServer.Core.Application.csproj" />
+		<ProjectReference Include="..\..\..\1.Core\GrpcServer.Core.Contract\GrpcServer.Core.Contract.csproj" />
+		<ProjectReference Include="..\..\..\1.Core\GrpcServer.Core.Domain.Service\GrpcServer.Core.Domain.Service.csproj" />
+		<ProjectReference Include="..\..\..\1.Core\GrpcServer.Core.Domain\GrpcServer.Core.Domain.csproj" />
+		<ProjectReference Include="..\GrpcServer.Infra.Data.Sql.Common\GrpcServer.Infra.Data.Sql.Common.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="Converters\" />
+		<Folder Include="UnitOfWork\" />
+	</ItemGroup>
+
+</Project>

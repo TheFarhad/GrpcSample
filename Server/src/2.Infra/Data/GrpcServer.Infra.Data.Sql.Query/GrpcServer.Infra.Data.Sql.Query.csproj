@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\1.Core\GrpcServer.Core.Contract\GrpcServer.Core.Contract.csproj" />
+		<ProjectReference Include="..\GrpcServer.Infra.Data.Sql.Common\GrpcServer.Infra.Data.Sql.Common.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Sky.Kernel" Version="1.0.4" />
+		<PackageReference Include="Sky.App.Infra.Data.Sql.Query" Version="1.3.0" />
+	</ItemGroup>
+
+</Project>

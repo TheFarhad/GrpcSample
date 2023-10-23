@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Sky.App.Core.Domain" Version="1.3.0" />
+		<PackageReference Include="Sky.Kernel" Version="1.0.4" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Aggregates\Elements\" />
+	  <Folder Include="Aggregates\Enumers\" />
+	  <Folder Include="Aggregates\Events\" />
+	  <Folder Include="Aggregates\Exceptions\" />
+	</ItemGroup>
+
+</Project>

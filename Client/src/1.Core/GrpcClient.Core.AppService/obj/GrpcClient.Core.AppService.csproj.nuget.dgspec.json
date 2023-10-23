@@ -1,0 +1,199 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Client\\src\\1.Core\\GrpcClient.Core.AppService\\GrpcClient.Core.AppService.csproj": {}
+  },
+  "projects": {
+    "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Client\\src\\1.Core\\GrpcClient.Core.AppService\\GrpcClient.Core.AppService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Client\\src\\1.Core\\GrpcClient.Core.AppService\\GrpcClient.Core.AppService.csproj",
+        "projectName": "GrpcClient.Core.AppService",
+        "projectPath": "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Client\\src\\1.Core\\GrpcClient.Core.AppService\\GrpcClient.Core.AppService.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Client\\src\\1.Core\\GrpcClient.Core.AppService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Client\\src\\1.Core\\GrpcClient.Core.Contract\\GrpcClient.Core.Contract.csproj": {
+                "projectPath": "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Client\\src\\1.Core\\GrpcClient.Core.Contract\\GrpcClient.Core.Contract.csproj"
+              },
+              "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Client\\src\\1.Core\\GrpcClient.Core.Domain\\GrpcClient.Core.Domain.csproj": {
+                "projectPath": "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Client\\src\\1.Core\\GrpcClient.Core.Domain\\GrpcClient.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Client\\src\\1.Core\\GrpcClient.Core.Contract\\GrpcClient.Core.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Client\\src\\1.Core\\GrpcClient.Core.Contract\\GrpcClient.Core.Contract.csproj",
+        "projectName": "GrpcClient.Core.Contract",
+        "projectPath": "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Client\\src\\1.Core\\GrpcClient.Core.Contract\\GrpcClient.Core.Contract.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Client\\src\\1.Core\\GrpcClient.Core.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Client\\src\\1.Core\\GrpcClient.Core.Domain\\GrpcClient.Core.Domain.csproj": {
+                "projectPath": "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Client\\src\\1.Core\\GrpcClient.Core.Domain\\GrpcClient.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Client\\src\\1.Core\\GrpcClient.Core.Domain\\GrpcClient.Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Client\\src\\1.Core\\GrpcClient.Core.Domain\\GrpcClient.Core.Domain.csproj",
+        "projectName": "GrpcClient.Core.Domain",
+        "projectPath": "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Client\\src\\1.Core\\GrpcClient.Core.Domain\\GrpcClient.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Client\\src\\1.Core\\GrpcClient.Core.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

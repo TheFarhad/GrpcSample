@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "1nK8DSA8bkrRi9F+SN+qSTlsNVzCQq6nDNz8gqvqCTw=",
+  "Source": "GrpcServer.API",
+  "BasePath": "_content/GrpcServer.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,291 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Server\\src\\2.Infra\\Data\\GrpcServer.Infra.Data.Sql.Query\\GrpcServer.Infra.Data.Sql.Query.csproj": {}
+  },
+  "projects": {
+    "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Server\\src\\1.Core\\GrpcServer.Core.Contract\\GrpcServer.Core.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Server\\src\\1.Core\\GrpcServer.Core.Contract\\GrpcServer.Core.Contract.csproj",
+        "projectName": "GrpcServer.Core.Contract",
+        "projectPath": "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Server\\src\\1.Core\\GrpcServer.Core.Contract\\GrpcServer.Core.Contract.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Server\\src\\1.Core\\GrpcServer.Core.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Server\\src\\1.Core\\GrpcServer.Core.Domain\\GrpcServer.Core.Domain.csproj": {
+                "projectPath": "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Server\\src\\1.Core\\GrpcServer.Core.Domain\\GrpcServer.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Sky.App.Core.Contract": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "Sky.Kernel": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Server\\src\\1.Core\\GrpcServer.Core.Domain\\GrpcServer.Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Server\\src\\1.Core\\GrpcServer.Core.Domain\\GrpcServer.Core.Domain.csproj",
+        "projectName": "GrpcServer.Core.Domain",
+        "projectPath": "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Server\\src\\1.Core\\GrpcServer.Core.Domain\\GrpcServer.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Server\\src\\1.Core\\GrpcServer.Core.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Sky.App.Core.Domain": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "Sky.Kernel": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Server\\src\\2.Infra\\Data\\GrpcServer.Infra.Data.Sql.Common\\GrpcServer.Infra.Data.Sql.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Server\\src\\2.Infra\\Data\\GrpcServer.Infra.Data.Sql.Common\\GrpcServer.Infra.Data.Sql.Common.csproj",
+        "projectName": "GrpcServer.Infra.Data.Sql.Common",
+        "projectPath": "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Server\\src\\2.Infra\\Data\\GrpcServer.Infra.Data.Sql.Common\\GrpcServer.Infra.Data.Sql.Common.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Server\\src\\2.Infra\\Data\\GrpcServer.Infra.Data.Sql.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Sky.App.Infra.Data.Sql": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "Sky.Kernel": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Server\\src\\2.Infra\\Data\\GrpcServer.Infra.Data.Sql.Query\\GrpcServer.Infra.Data.Sql.Query.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Server\\src\\2.Infra\\Data\\GrpcServer.Infra.Data.Sql.Query\\GrpcServer.Infra.Data.Sql.Query.csproj",
+        "projectName": "GrpcServer.Infra.Data.Sql.Query",
+        "projectPath": "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Server\\src\\2.Infra\\Data\\GrpcServer.Infra.Data.Sql.Query\\GrpcServer.Infra.Data.Sql.Query.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Server\\src\\2.Infra\\Data\\GrpcServer.Infra.Data.Sql.Query\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Server\\src\\1.Core\\GrpcServer.Core.Contract\\GrpcServer.Core.Contract.csproj": {
+                "projectPath": "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Server\\src\\1.Core\\GrpcServer.Core.Contract\\GrpcServer.Core.Contract.csproj"
+              },
+              "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Server\\src\\2.Infra\\Data\\GrpcServer.Infra.Data.Sql.Common\\GrpcServer.Infra.Data.Sql.Common.csproj": {
+                "projectPath": "G:\\Tutorial\\Programming\\0 - Projects\\Grpc Project\\Server\\src\\2.Infra\\Data\\GrpcServer.Infra.Data.Sql.Common\\GrpcServer.Infra.Data.Sql.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Sky.App.Infra.Data.Sql.Query": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "Sky.Kernel": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
